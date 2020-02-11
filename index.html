@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Взрослая жизнь</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image" href="https://code.s3.yandex.net/web-code/rules-favicon.ico">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="C:\Users\Карина\Desktop\сайт\Сайт 2 яндекс\script.js">	</script>
+	</head>
+
+<body>
+	<div id = "app" :title='message'>
+		<button v-on:click = 'show = !show' class = 'button1'  > Нажми </button>
+		<p v-if = "show" class = 'card-title'> Просто я изучаю Vue! </p>
+		<p v-else = "show" class = 'card-title'> Привет! </p>
+	</div>
+	<script src="vue.js"></script>
+
+<header class='header'>
+	<div class = 'overlay'>
+    	<h1 class='header-title'>Взрослая жизнь</h1>
+    </div>
+</header>
+<section class = 'content'>
+    
+	<div class = 'card'>
+    	<img class = 'card-image'
+    	src ='https://images.unsplash.com/photo-1564659318400-669837b066ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80'>
+        <h3 class = 'card-title'> Образование </h3>
+        <p class = 'card-text'> На этапе обучения в университете все идёт гладко и ты думаешь, когда закончишь учебу и получишь диплом, то сразу устроишься на хорошую работу. </p>
+    </div>
+   
+    <div class = 'card no-right-margin'>
+        <img class = 'card-image'
+        src ='https://images.unsplash.com/photo-1569025708622-8c9c95a090f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80'>
+        <h3 class = 'card-title'> Трудоустройство </h3>
+        <p class = 'card-text'> А вот тут все и начинается! Если у тебя нет опыта и ты не занимался саморазвитием во время обучения в университете, то у тебя нет шансов. </p>
+    </div>
+    
+    <div class = 'card'>
+        <img class = 'card-image'
+        src ='https://images.unsplash.com/photo-1576145790918-bdddd6d5ad21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80'>
+        <h3 class = 'card-title'> Саморазвитие </h3>
+        <p class = 'card-text'> Начинаешь сам осваивать программирование. Изучаешь языки (многие советуют начинать с Python, но как по мне это ошибка), читаешь книги и практикуешься. </p>
+    </div>
+    
+    <div class = 'card no-right-margin'>
+        <img class = 'card-image'
+        src ='https://images.unsplash.com/photo-1476234251651-f353703a034d?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80'>
+        <h3 class = 'card-title'> Семейная жизнь </h3>
+        <p class = 'card-text'> Если помимо всего у тебя уже есть семья (муж/жена или дети), то становится еще сложнее. Тебе нужен постоянный доход и у тебя совсем не остается времени на развитие. </p>
+    </div>
+</section>
+  
+<footer class="footer">
+    <h4 class="footer-author">Максим Савченко. 2020</h4>
+</footer>
+
+</body>
+
+</html>
